@@ -1,3 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap');
+
 body{
-   background-color: darkgray;
+   background-color: black;
+   font-family: 'Public Sans', sans-serif;
+}
+
+.wrapper{
+   width: 35rem;
+   margin: auto;
+   height: 100%;
+   display: block;
+   background-color: white;
+}
+
+.container{
+   margin: 1rem;
+   padding: 1rem;
+   padding-bottom: 2rem;
+   color: #116458;
+}
+
+h1{
+   font-size: 40px;
+   font-family: 'Bodoni Moda', serif;
+}
+
+p{
+   font-size: 20px;
+   font-weight: 500;
+}
+
+input{
+   width: 30rem;
+   height: 3rem;
+   margin-bottom: 1rem;
+}
+
+.btn{
+   width: 489px;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   text-align: center;
+   font-size: 18px;
+   background-color:#116458;
+}
+
+a{
+   color: white;
+   text-decoration: none;
+   letter-spacing: 1px;
 }
