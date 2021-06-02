@@ -1,3 +1,67 @@
 body{
-   background-color: darkgray;
+   background-color: black;
 }
+
+.wrapper div{
+   margin: 1rem;
+}
+
+.container{
+   text-align: center;
+   height: 100%;
+   background-color:lightgray;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-areas: 
+   "one two three four";
+   text-transform: uppercase;
+}
+
+
+h3{
+   border-bottom: solid lightgray 2px;
+}
+
+.pic img{
+   border-radius: 50%;
+   height: 200px;
+}
+
+p{
+   margin: 10px;
+   color: gray;
+}
+
+.logo{
+   letter-spacing: 15px;
+   border: gray solid 1px;
+   border-radius: 25px;
+   padding: 10px;
+}
+
+
+.one{
+   background-color: white;
+   border-radius: 25px;
+   grid-area: one;
+}
+
+.two{
+   background-color: white;
+   border-radius: 25px;
+   grid-area: two;
+}
+
+.three{
+   background-color: white;
+   border-radius: 25px;
+   grid-area: three;
+}
+
+.four{
+   background-color: white;
+   border-radius: 25px;
+   grid-area: four;
+}
+
+
